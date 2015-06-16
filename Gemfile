@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 
 gem 'pg'
-
+gem 'devise'
 gem 'rails_12factor'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -57,5 +57,4 @@ group :development, :test do
   gem 'spring'
 end
 
-  gem 'pg'
-  gem 'rails_12factor'
+ 
