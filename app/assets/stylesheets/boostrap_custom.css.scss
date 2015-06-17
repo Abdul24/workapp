@@ -1,24 +1,46 @@
 // navbar style sass
-$body-bg: #ecf0f1;
+$body-bg: white;
 $navbar-default-bg: white;
-$navbar-default-link-color: red;
-$navbar-height: 40px;
-$navbar-default-brand-hover-color: none;
-$navbar-default-link-hover-color: green;
+$navbar-default-link-color: #818386;
+$navbar-height: 55px;
+$navbar-default-link-hover-color: #3B9CE7;
 
 // jumbotron style sass
-$jumbotron-bg: white;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
-.navbar-brand {
-  
-  font-size: 20px;
-}
-.nav > li {
-  font-size: 14px;
-  font-weight:bold;
+
+// CSS Styling below 
+body {
+    font-family: "Helvetica Neue",
+    Helvetica,Arial, sans-serif;
+    font-size: 15px;  
 }
 
-.jumbotron {
+.nav > li {
+  font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  line-height: 40px; 
+}
+.navbar {
+  margin-bottom:0;
+  padding-bottom:7px;
+}
+
+#landing1{
+  background-color: #2580c0;
+  opacity: 0.9;
+  height: 550px;
+  color: white;
+  font-size: 1.2em;
   text-align: center;
-}  
+}
+#landing2{
+  background-color: white;
+  text-align: center;
+
+}
+
