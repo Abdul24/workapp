@@ -23,7 +23,7 @@
         
         <%# Control flow - show log out link if user is user_signed_in? else sign up%>
         <% if user_signed_in? %>
-          <li><%= link_to "Log out",  destroy_user_session_path, method: :delete %></li>
+          <li><%= link_to "LOG OUT",  destroy_user_session_path, method: :delete %></li>
         <% else %>
           <li><%= link_to "SIGN IN", new_user_session_path %></li>
         <% end%>
