@@ -1,0 +1,5 @@
+//Code for new.html.erb form - redo migration users table//
+<div class="form-group">
+    <%= f.label :FullName %><br />
+    <%= f.text_field :first_name, class: "form-control", autofocus: true  %>
+</div>
