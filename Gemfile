@@ -7,6 +7,7 @@ gem 'rails', '4.2.0'
 gem 'pg'
 gem 'devise'
 gem 'rails_12factor'
+
 # Add activeAdmin to generate an admin interface 
 gem 'activeadmin', github: 'gregbell/active_admin' 
 
@@ -23,9 +24,7 @@ gem 'therubyracer', platforms: :ruby
 #automatically adds the proper vendor prefixes to your CSS code when it is compiled.
 gem 'autoprefixer-rails', '~> 5.2.0'
 
-gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bootstrap-sass', '~> 3.3.4.1'
-
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
